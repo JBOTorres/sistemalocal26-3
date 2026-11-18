@@ -4,7 +4,8 @@ namespace App\Controllers;
 
 use App\Models\AlumnoModel;
 
-class Alumnos extends BaseController
+#cambio en ambiente local 
+class Alumnos extends BaseControll
 {
     private function requiereSesion()
     {
